@@ -18,7 +18,7 @@ O app é um dashboard de recrumamento
 ## Rode o projeto
 * No seu terminal: <br> 
   <ol>
-    <li>git clone https://github.com/italoOliveira-dev/contrata-jd.git cd cineJD</li>
+    <li>git clone https://github.com/italoOliveira-dev/contrata-jd.git cd contrata-jd</li>
     <li>npm install</li>
     <li>npm run dev</li>
   </ol>
