@@ -1,8 +1,25 @@
-# React + Vite
+# Contrata ;D
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Atividade de aula prática do curso Escola de Jovens Programadores - JD
 
-Currently, two official plugins are available:
+O app é um dashboard de recrumamento
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias utilizadas
+* React
+* Vite
+* TailwindCSS
+
+## Colaboradores
+* Anna
+* Artur
+* Henrique
+* Ítalo
+
+## Rode o projeto
+* No seu terminal: <br> 
+  <ol>
+    <li>git clone https://github.com/Sadn0x/CineJD.git cd cineJD</li>
+    <li>npm install</li>
+    <li>npm run dev</li>
+  </ol>
+* Abra no navegador: `http://localhost:5173`
