@@ -20,7 +20,7 @@ function App() {
           <div className="w-full">
             <Header />
 
-            <div className="p-5">
+            <div className="">
               <Routes>
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/recrutamento" element={<Recrutamento />} />
