@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Navigation from "./Components/Navigation/Navigation";
 import "./App.css";
+import Navbar from "./Components/Navigation/Navbar";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
           <Route path="/suporte" element={''} />
           <Route path="/settings" element={''} />
         </Routes>
+        <Navbar/>
       </div>
+      
     </Router>
   );
 }
