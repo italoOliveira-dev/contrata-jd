@@ -1,4 +1,3 @@
-// MenuPrincipal.jsx
 
 import { Menu, MenuItem } from "react-pro-sidebar";
 import { Link } from "react-router-dom";
