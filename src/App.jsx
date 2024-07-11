@@ -3,7 +3,7 @@ import Navigation from "./Components/Navigation/Navigation";
 import "./App.css";
 
 import Dashboard from "./pages/Dashboard/Dashboard";
-import Header from "./Components/Navigation/Components/Header";
+import Header from "./Components/Navigation/Components/Header/Header";
 import Recrutamento from "./pages/Recrutamento/Recrutamneto";
 import Agendamento from "./pages/Agendamento/Agendamento";
 import Colaboradores from "./pages/Colaboradores/Colaboradores";
