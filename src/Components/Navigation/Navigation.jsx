@@ -5,8 +5,8 @@ import MenuOutros from "./Components/MenuOutros";
 import { Sidebar } from "react-pro-sidebar";
 
 import LogoIcon from "./assets/icon/logo.svg";
-import MenuOutrosMobile from "./Components/Mobile/MenuOutrosMobile";
-import MenuPrincipalMobile from "./Components/Mobile/MenuPrincipalMobile";
+import MenuOutrosMobile from "./Components/MobileMenu/MenuOutrosMobile";
+import MenuPrincipalMobile from "./Components/MobileMenu/MenuPrincipalMobile";
 
 function Navigation() {
   return (
