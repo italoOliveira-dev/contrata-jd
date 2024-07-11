@@ -9,11 +9,10 @@ export default function CardEstatusFuncionario({ estatusFuncionario }) {
         <div
             className={`${bg}
             flex flex-col items-start justify-center gap-[5px] 
-            w-[204px] h-[136px] 
+            w-[100%] h-[136px] 
             rounded-[10px] 
             py-[12px] pl-[20px] pr-[12px]
-        `}
-        >
+        `}>
             <Item
                 id={estatusFuncionario.id}
                 titulo={estatusFuncionario.titulo}
