@@ -5,10 +5,10 @@ export default function Item({id, titulo, quantidade, informacao}) {
 
     return (
         <>
-            <h3 className="text-[18px] font-medium text-[#161E54]">
+            <h3 className="text-[17px] font-medium text-[#161E54]">
                 {titulo}
             </h3>
-            <span className={`text-[34px] font-medium text-[#161E54]`}>{quantidade}</span>
+            <span className={`text-[36px] font-medium text-[#161E54]`}>{quantidade}</span>
             <span className={`text-[16px] font-normal ${textColor}`}>
                 {informacao}
             </span>
