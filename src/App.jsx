@@ -14,7 +14,7 @@ import Settings from "./pages/Settings/Settings";
 function App() {
   return (
     <Router>
-      <div className="w-screen h-screen bg-white">
+      <div className="w-screen h-auto bg-white">
         <div className="flex">
           <Navigation />
           <div className="w-full">
