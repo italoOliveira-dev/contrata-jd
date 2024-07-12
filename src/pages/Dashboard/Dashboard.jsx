@@ -1,6 +1,8 @@
 import Anuncio from "./Components/Anuncio/Anuncio";
 import EstatusEmpresa from "./Components/EstatusEmpresa";
 import RecentyActivity from "./Components/RecentyActivity";
+import UpcomingActivities from "../../Components/Navigation/Components/MobileMenu/UpcomingActivities";
+import RecentyActivity from "../../Components/Navigation/Components/RecentyActivity";
 import CardEstatusFuncionario from "./Components/cardEstatusFuncionario";
 
 export default function Dashboard() {
@@ -39,7 +41,7 @@ export default function Dashboard() {
   }];
 
   return (
-    <div className="px-[20px] pt-[11px]">
+    <div className="pl-[51px] pt-[11px] lg:flex justify-start">
       <div>
         <h2 className="text-left mb-2 text-[24px] font-medium text-[#161E54]">
           Dashboard
@@ -61,8 +63,12 @@ export default function Dashboard() {
           ))}
         </div>
       </div>
-      <Anuncio />
-      <RecentyActivity />
+      <div className="grid grid-cols-1 gap-4 ml-5">
+        <Anuncio />
+        <RecentyActivity />
+        <UpcomingActivities />
+      </div>
+      
     </div>
   );
 }

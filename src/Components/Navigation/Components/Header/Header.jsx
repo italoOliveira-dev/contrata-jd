@@ -120,7 +120,23 @@ function Header() {
             >
               Iago Maciel
             </p>
-            <img src={DownArrowIcon} alt="" />
+            <Popup
+            trigger={
+              <motion.button
+                whileTap={{ scale: 1.1 }}
+                whileHover={{ scale: 1.2 }}
+              >
+                <img
+                  src={DownArrowIcon}
+                  alt=""
+                />
+              </motion.button>
+            }
+          >
+            <div className="h-52 pt-5 flex justify-center text-gray-400">
+              No Configuration here
+            </div>
+          </Popup>
           </div>
         </div>
       </div>
