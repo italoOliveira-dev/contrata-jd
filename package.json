@@ -10,14 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@coreui/coreui": "^5.0.2",
+    "@coreui/react": "^5.1.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.16.1",
     "@react-spring/web": "^9.7.3",
     "framer-motion": "^11.3.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-dropdown": "^1.11.0",
     "react-pro-sidebar": "^1.1.0",
     "react-router-dom": "^6.24.1",
-    "reactjs-popup": "^2.0.6"
+    "reactjs-popup": "^2.0.6",
+    "rsuite": "^5.65.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
