@@ -14,6 +14,7 @@ O app é um dashboard de recrumamento
 * Artur
 * Henrique
 * Ítalo
+* Jamille
 
 ## Rode o projeto
 * No seu terminal: <br> 
