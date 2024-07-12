@@ -14,7 +14,7 @@ import Settings from "./pages/Settings/Settings";
 function App() {
   return (
     <Router>
-      <div className="w-screen h-screen bg-white">
+      <div className="w-screen h-auto bg-white">
         <div className="flex">
           <Navigation />
           <div className="w-full">
@@ -22,7 +22,7 @@ function App() {
 
             <div className="">
               <Routes>
-                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/" element={<Dashboard />} />
                 <Route path="/recrutamento" element={<Recrutamento />} />
                 <Route path="/agendamento" element={<Agendamento />} />
                 <Route path="/colaboradores" element={<Colaboradores />} />

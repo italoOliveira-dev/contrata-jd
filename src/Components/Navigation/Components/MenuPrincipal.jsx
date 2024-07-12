@@ -10,7 +10,7 @@ function MenuPrincipal() {
       </span>
       <div className="flex-col text-left">
         <Menu className="ml-0 mr-0 mb-10">
-          <Link className="ml-0 mr-0" to="/dashboard">
+          <Link className="ml-0 mr-0" to="/">
             <MenuItem className="">
               <div className="flex p-5 space-x-5">
                 <svg
