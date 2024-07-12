@@ -1,3 +1,4 @@
+import Anuncio from "./Components/Anuncio/Anuncio";
 import RecentyActivity from "./Components/RecentyActivity";
 import CardEstatusFuncionario from "./Components/cardEstatusFuncionario";
 
@@ -35,6 +36,7 @@ export default function Dashboard() {
           ))}
         </div>
       </div>
+      <Anuncio />
       <RecentyActivity />
     </div>
   );
