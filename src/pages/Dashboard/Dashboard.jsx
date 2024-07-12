@@ -1,4 +1,4 @@
-import RecentyActivity from "../../Components/Navigation/Components/RecentyActivity";
+import RecentyActivity from "./Components/RecentyActivity";
 import CardEstatusFuncionario from "./Components/cardEstatusFuncionario";
 
 export default function Dashboard() {
