@@ -1,3 +1,4 @@
+import UpcomingActivities from "../../Components/Navigation/Components/MobileMenu/UpcomingActivities";
 import RecentyActivity from "../../Components/Navigation/Components/RecentyActivity";
 import CardEstatusFuncionario from "./Components/cardEstatusFuncionario";
 
@@ -21,7 +22,7 @@ export default function Dashboard() {
   }]
 
   return (
-    <div className="pl-[51px] pt-[11px]">
+    <div className="pl-[51px] pt-[11px] lg:flex justify-start">
       <div>
         <h2 className="text-left mb-2 text-[24px] font-medium text-[#161E54]">
           Dashboard
@@ -35,7 +36,11 @@ export default function Dashboard() {
           ))}
         </div>
       </div>
-      <RecentyActivity />
+      <div className="grid grid-cols-1 gap-4 ml-5">
+        <RecentyActivity />
+        <UpcomingActivities />
+      </div>
+      
     </div>
   );
 }
