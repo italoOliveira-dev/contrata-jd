@@ -4,13 +4,13 @@ export default function EstatusEmpresa({estatus}) {
     return (
         <div className="border border-[#E0E0E0] rounded-[10px] p-[20px] grid grid-cols-2 gap-1">
             <div className="flex flex-col items-start gap-3 ">
-                <h2 className="text-base text-nowrap text-[#161E54] font-medium">
+                <h2 className="text-base text-nowrap text-[#161E54] font-medium leading-7">
                     {estatus.titulo}
                 </h2>
                 <span className="text-5xl text-[#161E54] font-medium">
                     {estatus.homem + estatus.mulher}
                 </span>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-start gap-1">
                     <span className="text-xs text-[#686868] font-normal">
                         {estatus.homem} Homens
                     </span>

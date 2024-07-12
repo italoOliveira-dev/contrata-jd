@@ -30,7 +30,7 @@ export default function Dashboard() {
     url: "src/assets/grafico1.svg"
   }, {
     id: 2,
-    titulo: "Solicitação de Talento",
+    titulo: "Solicitação de Talentos",
     homem: 6,
     mulher: 10,
     valorPorcento: 5,
