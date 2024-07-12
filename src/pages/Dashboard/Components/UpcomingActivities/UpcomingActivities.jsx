@@ -1,4 +1,4 @@
-import DownArrowIcon from "../Header/assets/icons/Frame10.svg";
+import DownArrowIcon from "./assets/icon/Frame10.svg";
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 

@@ -1,8 +1,7 @@
 import Anuncio from "./Components/Anuncio/Anuncio";
 import EstatusEmpresa from "./Components/EstatusEmpresa";
 import RecentyActivity from "./Components/RecentyActivity";
-import UpcomingActivities from "../../Components/Navigation/Components/MobileMenu/UpcomingActivities";
-import RecentyActivity from "../../Components/Navigation/Components/RecentyActivity";
+import UpcomingActivities from "./Components/UpcomingActivities/UpcomingActivities";
 import CardEstatusFuncionario from "./Components/cardEstatusFuncionario";
 
 export default function Dashboard() {
