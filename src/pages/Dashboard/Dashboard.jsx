@@ -40,12 +40,12 @@ export default function Dashboard() {
   }];
 
   return (
-    <div className="pl-[51px] pt-[11px] lg:flex justify-start">
+    <div className="pt-[11px] lg:flex justify-start">
       <div>
         <h2 className="text-left mb-2 text-[24px] font-medium text-[#161E54]">
           Dashboard
         </h2>
-        <div className="grid grid-cols-1 gap-4">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-12 ">
           {estatusFuncionarios.map(estatus => (
               <CardEstatusFuncionario 
                 key={estatus.id}
@@ -62,7 +62,7 @@ export default function Dashboard() {
           ))}
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-4 ml-5">
+      <div className="grid grid-cols-1 gap-4">
         <Anuncio />
         <RecentyActivity />
         <UpcomingActivities />

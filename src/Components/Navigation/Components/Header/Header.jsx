@@ -11,7 +11,7 @@ import SearchIcon from "./assets/icons/Frame9.svg"
 
 function Header() {
   return (
-    <div className="w-[inherit] h-24 pl-5 border-t flex justify-between items-center bg-white border-b">
+    <div className="w-[inherit] h-24 border-t flex justify-between items-center bg-white border-b">
       <div className="w-[343px] h-[44px] pr-3 pb-3 max-lg:hidden">
         <label className="relative block">
           <span className="sr-only">Busca</span>

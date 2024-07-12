@@ -14,13 +14,13 @@ import Settings from "./pages/Settings/Settings";
 function App() {
   return (
     <Router>
-      <div className="w-screen h-auto bg-white">
+      <div className="w-full h-auto bg-white">
         <div className="flex">
           <Navigation />
           <div className="w-full">
             <Header />
 
-            <div className="">
+            <div className="px-5 md:px-[52px]">
               <Routes>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/recrutamento" element={<Recrutamento />} />
