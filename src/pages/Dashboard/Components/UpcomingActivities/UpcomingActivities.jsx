@@ -49,10 +49,10 @@ function UpcomingActivities() {
     };
 
     return (
-        <div className="max-w-md mx-auto bg-card text-card-foreground rounded-lg shadow-md p-4 border lg:w-[427px] sm:w-[350px]">
+        <div className="bg-card text-card-foreground rounded-lg shadow-md p-4 border lg:w-[427px] sm:w-[350px]">
             <div className="flex justify-between items-center mb-4">
-                <h2 className="text-lg font-semibold text-customBlue">Próximas Atividades</h2>
-                <button className="border border-inherit w-[175px] h-[27px] text-xs bg-input text-foreground px-4 py-2 rounded-lg flex justify-between items-center">Hoje, 13 de Setem.. <img src={DownArrowIcon} alt="" /></button>
+                <h2 className="text-lg text-nowrap font-semibold text-customBlue">Próximas Atividades</h2>
+                <button className="border border-inherit w-[175px] h-[27px] text-xs text-nowrap bg-input px-2 py-2 rounded-lg flex justify-between items-center">Hoje, 13 de Setem.. <img src={DownArrowIcon} alt="" /></button>
             </div>
             <div>
                 <h3 className="text-xs font-medium mb-2 flex justify-start">Prioridade</h3>
@@ -93,7 +93,7 @@ function UpcomingActivities() {
                                     </>
                                 ) : (
                                     <>
-                                        <h4 className="font-semibold activity-title">{activity.title}</h4>
+                                        <h4 className="font-semibold activity-title text-left">{activity.title}</h4>
                                         <p className="text-xs text-gray-600 activity-time flex justify-start">{activity.time}</p>
                                     </>
                                 )}
