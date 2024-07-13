@@ -2,7 +2,6 @@ import Anuncio from "./Components/Anuncio/Anuncio";
 import EstatusEmpresa from "./Components/EstatusEmpresa";
 import RecentyActivity from "./Components/RecentyActivity";
 import UpcomingActivities from "../../Components/Navigation/Components/MobileMenu/UpcomingActivities";
-import RecentyActivity from "../../Components/Navigation/Components/RecentyActivity";
 import CardEstatusFuncionario from "./Components/cardEstatusFuncionario";
 
 export default function Dashboard() {
@@ -41,12 +40,12 @@ export default function Dashboard() {
   }];
 
   return (
-    <div className="pl-[51px] pt-[11px] lg:flex justify-start">
+    <div className="pl-[51px] pt-[11px] lg:flex justify-start mr-2">
       <div>
         <h2 className="text-left mb-2 text-[24px] font-medium text-[#161E54]">
           Dashboard
         </h2>
-        <div className="grid grid-cols-1 gap-4">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
           {estatusFuncionarios.map(estatus => (
               <CardEstatusFuncionario 
                 key={estatus.id}
@@ -62,9 +61,9 @@ export default function Dashboard() {
             />
           ))}
         </div>
-      </div>
-      <div className="grid grid-cols-1 gap-4 ml-5">
         <Anuncio />
+      </div>
+      <div className="grid md:grid-cols-2 md:mt-4 md:gap-0 md:mr-12 lg:grid-cols-1 gap-4 ml-1 md:ml-0 lg:ml-5">
         <RecentyActivity />
         <UpcomingActivities />
       </div>

@@ -107,7 +107,7 @@ function UpcomingActivities() {
                     ))}
                 </div>
             </div>
-            <div className="mt-0 pt-0 mb-0">
+            <div className="mt-3">
                 <button
                     id="create-activity"
                     className="border-transparent text-red-500 text-destructive-foreground w-[100%] py-3 rounded-lg sticky bottom-4 mt-0 mb-0"

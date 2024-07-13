@@ -5,10 +5,10 @@ function DayDropdown() {
       <motion.button
         whileTap={{ scale: 1.1 }}
         whileHover={{ scale: 1.02, background: "#dfdfdf" }}
-        className="border-gray-300 p-1 px-5"
+        className="border-gray-300 p-1 px-5 max-w-full truncate"
       >
         <span className="flex justify-between space-x-5">
-          <span className="text-sm text-gray-500 text-ellipsis text-nowrap overflow-hidden ">
+          <span className="text-xs text-gray-500 text-ellipsis text-nowrap overflow-hidden ">
             Hoje, 13 de setembro de 2021
           </span>
           <img src={DownArrowIcon} alt="" />
