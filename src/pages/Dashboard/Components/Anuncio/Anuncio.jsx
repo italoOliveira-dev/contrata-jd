@@ -30,8 +30,10 @@ function Anuncio() {
       </motion.button>
 
       <Modal open={open} onClose={handleClose}>
-        <div className="rounded-lg absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10/12 bg-white shadow-sm p-4">
-          <span className="text-black flex justify-center">Hello World!</span>
+        <div className="flex  rounded-lg absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/5 h-1/5 bg-white shadow-sm p-4">
+          <div className="self-center w-screen ">
+            <span className="text-black flex justify-center">Hello World!</span>
+          </div>
         </div>
       </Modal>
     </div>
