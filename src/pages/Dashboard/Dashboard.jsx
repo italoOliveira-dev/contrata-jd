@@ -40,7 +40,7 @@ export default function Dashboard() {
   }];
 
   return (
-    <div className="pl-[51px] pt-[11px] lg:flex justify-start mr-2">
+    <div className="px-10 pt-[11px] lg:flex justify-start mr-2">
       <div>
         <h2 className="text-left mb-2 text-[24px] font-medium text-[#161E54]">
           Dashboard
