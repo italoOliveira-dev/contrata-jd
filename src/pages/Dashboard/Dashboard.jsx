@@ -1,7 +1,7 @@
 import Anuncio from "./Components/Anuncio/Anuncio";
 import EstatusEmpresa from "./Components/EstatusEmpresa";
 import RecentyActivity from "./Components/RecentyActivity";
-import UpcomingActivities from "../../Components/Navigation/Components/MobileMenu/UpcomingActivities";
+import UpcomingActivities from "./Components/UpcomingActivities/UpcomingActivities";
 import CardEstatusFuncionario from "./Components/cardEstatusFuncionario";
 
 export default function Dashboard() {
@@ -61,6 +61,8 @@ export default function Dashboard() {
             />
           ))}
         </div>
+      </div>
+      <div className="grid grid-cols-1 gap-4">
         <Anuncio />
       </div>
       <div className="grid md:grid-cols-2 md:mt-4 md:gap-0 md:mr-12 lg:grid-cols-1 gap-4 ml-1 md:ml-0 lg:ml-5">
