@@ -13,9 +13,9 @@ function OpenMenu() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div className="flex h-screen">
+    <div className="flex">
       <div className="m-0">
-        <div className="flex items-center justify-between px-6 md:px-0">
+        <div className="flex items-center justify-between px-6">
           <div className="flex items-center w-6 ">
             <motion.button
               whileTap={{ scale: 1.1 }}

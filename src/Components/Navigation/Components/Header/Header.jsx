@@ -4,10 +4,10 @@ import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import { motion } from "framer-motion";
 
-import DownArrowIcon from "./assets/icons/Frame10.svg"
-import ChatIcon from "./assets/icons/bi_chat-left-dots-fill.svg"
-import NotificationsIcon from "./assets/icons/ic_round-notifications.svg"
-import SearchIcon from "./assets/icons/Frame9.svg"
+import DownArrowIcon from "./assets/icons/Frame10.svg";
+import ChatIcon from "./assets/icons/bi_chat-left-dots-fill.svg";
+import NotificationsIcon from "./assets/icons/ic_round-notifications.svg";
+import SearchIcon from "./assets/icons/Frame9.svg";
 
 function Header() {
   return (
@@ -35,25 +35,30 @@ function Header() {
         </label>
       </div>
       <div className="w-5/12 h-[44px] lg:hidden max-sm:hidden">
-        <label className="relative block">
-          <span className="sr-only">Busca</span>
-          <motion.span
-            className="absolute inset-y-0 right-1 flex items-center pl-2"
-            whileTap={{ scale: 1.1 }}
-            whileHover={{ scale: 1.2 }}
-          >
-            <button>
-              <img src={SearchIcon} alt="" />
-            </button>
-          </motion.span>
-          <input
-            className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
-            placeholder="Busca"
-            type="text"
-            name="search"
-            style={{ backgroundColor: "rgba(250, 250, 250, 1)" }}
-          />
-        </label>
+        <div className="flex space-x-10">
+          <div className="mt-2">
+            <OpenMenu />
+          </div>
+          <label className="relative block">
+            <span className="sr-only">Busca</span>
+            <motion.span
+              className="absolute inset-y-0 right-1 flex items-center pl-2"
+              whileTap={{ scale: 1.1 }}
+              whileHover={{ scale: 1.2 }}
+            >
+              <button>
+                <img src={SearchIcon} alt="" />
+              </button>
+            </motion.span>
+            <input
+              className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
+              placeholder="Busca"
+              type="text"
+              name="search"
+              style={{ backgroundColor: "rgba(250, 250, 250, 1)" }}
+            />
+          </label>
+        </div>
       </div>
       <div className="h-6 sm:hidden flex">
         <OpenMenu />
@@ -93,10 +98,7 @@ function Header() {
                 whileTap={{ scale: 1.1 }}
                 whileHover={{ scale: 1.2 }}
               >
-                <img
-                  src={ChatIcon}
-                  alt=""
-                />
+                <img src={ChatIcon} alt="" />
               </motion.button>
             }
           >
@@ -121,22 +123,19 @@ function Header() {
               Iago Maciel
             </p>
             <Popup
-            trigger={
-              <motion.button
-                whileTap={{ scale: 1.1 }}
-                whileHover={{ scale: 1.2 }}
-              >
-                <img
-                  src={DownArrowIcon}
-                  alt=""
-                />
-              </motion.button>
-            }
-          >
-            <div className="h-52 pt-5 flex justify-center text-gray-400">
-              No Configuration here
-            </div>
-          </Popup>
+              trigger={
+                <motion.button
+                  whileTap={{ scale: 1.1 }}
+                  whileHover={{ scale: 1.2 }}
+                >
+                  <img src={DownArrowIcon} alt="" />
+                </motion.button>
+              }
+            >
+              <div className="h-52 pt-5 flex justify-center text-gray-400">
+                No Configuration here
+              </div>
+            </Popup>
           </div>
         </div>
       </div>
