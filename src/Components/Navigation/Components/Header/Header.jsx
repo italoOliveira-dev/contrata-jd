@@ -133,7 +133,7 @@ function Header() {
               }
             >
               <div className="h-52 pt-5 flex justify-center text-gray-400">
-                No Configuration here
+                No configurations here...
               </div>
             </Popup>
           </div>

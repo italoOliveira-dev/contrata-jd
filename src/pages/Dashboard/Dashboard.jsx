@@ -46,7 +46,7 @@ export default function Dashboard() {
   ];
 
   return (
-    <div className="pt-5 p-10 lg:flex justify-start mr-2">
+    <div className="pt-5 p-10 lg:flex justify-start ">
       <div>
         <h2 className="text-left mb-2 text-[24px] font-medium text-[#161E54]">
           Dashboard
@@ -66,7 +66,7 @@ export default function Dashboard() {
         </div>
         <Anuncio />
       </div>
-      <div className="mt-4 mx-5 space-y-5 max-xl:flex-wrap max-lg:w-full max-lg:flex max-lg:flex-nowrap max-lg:ml-0 max-lg:space-x-3 max-lg:space-y-0 max-lg:mb-5 max-md:flex-wrap max-md:space-x-0 max-md:space-y-5">
+      <div className="mt-4 ml-5 space-y-5 max-xl:flex-wrap max-lg:w-full max-lg:flex max-lg:flex-nowrap max-lg:ml-0 max-lg:space-x-3 max-lg:space-y-0 max-lg:mb-5 max-md:flex-wrap max-md:space-x-0 max-md:space-y-5">
         <RecentyActivity />
         <UpcomingActivities />
       </div>

@@ -1,6 +1,7 @@
 import DownArrowIcon from "./assets/icon/Frame10.svg";
-// eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { motion } from "framer-motion";
+
 
 function UpcomingActivities() {
     const [otherActivities, setOtherActivities] = useState([
@@ -54,9 +55,13 @@ function UpcomingActivities() {
           <h2 className="text-lg font-semibold text-customBlue">
             Próximas Atividades
           </h2>
-          <button className="border border-inherit w-[175px] h-[27px] text-xs bg-input text-foreground px-4 py-2 rounded-lg flex justify-between items-center">
+          <motion.button
+            whileTap={{ scale: 1.1 }}
+            whileHover={{ scale: 1.02, background: "#dfdfdf" }}
+            className="border border-inherit w-[175px] h-[27px] text-xs bg-input text-foreground px-4 py-2 rounded-lg flex justify-between items-center"
+          >
             Hoje, 13 de Setem.. <img src={DownArrowIcon} alt="" />
-          </button>
+          </motion.button>
         </div>
         <div>
           <h3 className="text-xs font-medium mb-2 flex justify-start">
@@ -160,13 +165,15 @@ function UpcomingActivities() {
           </div>
         </div>
         <div className="mt-3">
-          <button
+          <motion.button
+            whileTap={{ scale: 1.1 }}
+            whileHover={{ scale: 1.02, background: "#dfdfdf" }}
             id="create-activity"
             className="border-transparent text-red-500 text-destructive-foreground w-[100%] py-3 rounded-lg sticky bottom-4 mt-0 mb-0"
             onClick={handleCreateActivity}
           >
             Criar Nova Atividade
-          </button>
+          </motion.button>
         </div>
       </div>
     );

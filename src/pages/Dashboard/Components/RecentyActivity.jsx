@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import { motion } from "framer-motion";
 
 const RecentActivity = () => {
   return (
@@ -26,12 +27,14 @@ const RecentActivity = () => {
           <p className="font-normal text-[14px] leading-5">
             Hoje você realizou 12 atividades
           </p>
-          <button
-            className="w-[139px]   rounded-[4px] p-2 bg-[#FF5151]"
+          <motion.button
+            whileTap={{ scale: 1.1 }}
+            whileHover={{ scale: 1.2 }}
+            className="w-[139px] rounded-[4px] p-2 bg-[#FF5151] hover:bg-[#FF5151]"
             type="button"
           >
             Ver Todas
-          </button>
+          </motion.button>
         </div>
       </div>
     </div>
